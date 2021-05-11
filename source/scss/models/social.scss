@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+
+  &:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  &:not(:hover) svg {
+    color: #808080; // TODO
+    fill: #808080; // TODO
+  }
+  &:hover svg {
+    color: $primary-color;
+    fill: $primary-color;
+  }
+}
+
+// .social__icon {}

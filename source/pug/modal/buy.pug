@@ -1,0 +1,12 @@
+#buyModal.modal.buy-modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+	.modal-dialog.buy-modal__dialog(role='document')
+		.modal-content.buy-modal__content
+			button.close.buy-modal__close(type='button' data-dismiss='modal' aria-label='Close')
+				include ../../img/icons/close-icon.svg
+			.buy-modal__body
+				h3.buy-modal__title Преимущества G-SYNC
+				form.buy-modal__form
+					input.buy-modal__input(type="text" placeholder="Имя")
+					input.buy-modal__input(type="text" placeholder="Mail")
+					.buy-modal__submit
+						button.btn(type='submit') Купить

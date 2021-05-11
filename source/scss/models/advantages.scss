@@ -1,0 +1,32 @@
+.advantages {
+  padding: 60px 15px 60px;
+  // background: $black;
+  color: $white;
+
+  @media screen and (min-width: 1200px) {
+    padding: 60px 0 125px;
+  }
+}
+
+.advantages__text {
+  margin-bottom: 50px;
+}
+
+.advantages__cards {
+  margin-bottom: 50px;
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+
+    li {
+      width: 25%;
+    }
+    li:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.advantages__btn {
+  text-align: center;
+}

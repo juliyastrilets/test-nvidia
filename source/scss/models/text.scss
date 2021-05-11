@@ -1,0 +1,30 @@
+.text {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text__title {
+  font-family: $font-family-secondary;
+  font-size: 26px;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+  span {
+    display: block;
+
+    @media screen and (min-width: 1200px) {
+      display: inline;
+      margin-left: 8px;
+    }
+  }
+}
+
+.text__paragraph {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+}

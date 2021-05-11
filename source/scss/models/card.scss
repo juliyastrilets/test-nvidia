@@ -1,0 +1,49 @@
+.card {
+
+  &:not(:last-child) {
+    margin-bottom: 50px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: initial;
+    }
+  }
+}
+
+.card__img {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.card__title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 26px;
+  line-height: 36px;
+  font-family: $font-family-secondary;
+  color: $primary-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+  letter-spacing: 0.25px;
+
+  @media screen and (min-width: 1200px) {
+    text-align: initial;
+  }
+
+  span:not(.card__accent) { 
+    color: $white;
+    font-weight: 400;
+  }
+}
+
+.card__accent {
+  margin-right: 6px;
+}
+
+.card__text {
+  color: #E1E1E1;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+}

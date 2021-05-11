@@ -1,0 +1,38 @@
+.header {
+  color: $white;
+  background: $black;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: initial;
+  }
+}
+
+.header__logo {
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 14px;
+  }
+
+  svg {
+    @media screen and (min-width: 1200px) {
+      width: 81px;
+      height: 100%;
+    }
+  }
+}
+
+.header__menu {
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+  }
+}
